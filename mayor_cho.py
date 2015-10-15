@@ -4,12 +4,12 @@ mayor = 0
 num = int(raw_input('mete un numero positivo (si te aburres mete un negativo y terminas): '))
 while num >=0:
 	num = int(raw_input('mete un numero positivo (si te aburres mete un negativo y terminas): '))
-	if num < 0:
-		entretenio= False
-	elif num > mayor:
-		mayor = num
-
-print "El mayor del chorro números es " + str(mayor)
-		
+	if num >mayor:
+		mayor=num
+	num = int(raw_input('mete un numero positivo (si te aburres mete un negativo y terminas): '))
+if mayor > = 0:
+	print "El mayor del chorro números es " + str(mayor)
+else < = 0:
+	print "Siga con sus cosas"
 
 
