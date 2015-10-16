@@ -7,9 +7,8 @@ while num >=0:
 	if num >mayor:
 		mayor=num
 	num = int(raw_input('mete un numero positivo (si te aburres mete un negativo y terminas): '))
-if mayor > = 0:
-	print "El mayor del chorro números es " + str(mayor)
-else < = 0:
+	
+else:
 	print "Siga con sus cosas"
 
-
+print "El mayor del chorro números es " + str(mayor)
